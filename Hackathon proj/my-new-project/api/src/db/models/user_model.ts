@@ -2,7 +2,7 @@ import sequelize from "../sequelize_db";
 import  Sequelize  from "sequelize";
 
 
-const User = sequelize.define('ourusers',  {
+const User = sequelize.define('users',  {
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
