@@ -6,8 +6,8 @@ import cors from 'cors';
 
 import sequelize from './db/sequelize_db';
 import UserRouter from './api/routes/user_routes';
+//import User from './db/models/user_model';
 import User from './db/models/user_model';
-
 const app = express();
 
 // parse application/x-www-form-urlencoded
